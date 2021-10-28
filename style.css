@@ -11,7 +11,26 @@ body {
     padding: 40px;
     color: #222;  
     text-align: center;
+}
 
+.card:hover {
+    animation: bounce 0.5s linear;
+    cursor: pointer;
+}
+
+@keyframes bounce {
+    20% {
+        transform: translateY(-6px);
+    }   
+    40% {
+        transform: translateY(0px);
+    } 
+    60% {
+        transform: translateY(-2px);
+    }
+    80% {
+        transform: translateY(-0px)
+    }
 }
 
 .card-title {
@@ -40,3 +59,15 @@ body {
 }
 
 
+.container {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 54px;
+    color: #fff;
+}
